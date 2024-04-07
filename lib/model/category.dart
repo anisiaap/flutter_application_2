@@ -12,7 +12,7 @@ class Category {
 final allCategory = Category(
   categoryId: 0,
   name: "All",
-  icon: Icons.search,
+  icon: Icons.list_rounded,
 );
 
 final musicCategory = Category(
@@ -21,28 +21,41 @@ final musicCategory = Category(
   icon: Icons.music_note,
 );
 
-final meetUpCategory = Category(
+final foodCategory = Category(
   categoryId: 2,
-  name: "Meetup",
-  icon: Icons.location_on,
+  name: "Food",
+  icon: Icons.food_bank_rounded,
 );
 
-final golfCategory = Category(
+final sportCategory = Category(
   categoryId: 3,
-  name: "Golf",
-  icon: Icons.golf_course,
+  name: "Sports",
+  icon: Icons.sports_football,
 );
 
-final birthdayCategory = Category(
+final healthCategory = Category(
   categoryId: 4,
-  name: "Birthday",
-  icon: Icons.cake,
+  name: "Health",
+  icon: Icons.masks,
+);
+final politicsCategory = Category(
+  categoryId: 5,
+  name: "Politics",
+  icon: Icons.flag,
+);
+
+final cultureCategory = Category(
+  categoryId: 6,
+  name: "Culture",
+  icon: Icons.castle,
 );
 
 final categories = [
   allCategory,
   musicCategory,
-  meetUpCategory,
-  golfCategory,
-  birthdayCategory,
+  foodCategory,
+  sportCategory,
+  healthCategory,
+  politicsCategory,
+  cultureCategory
 ];
